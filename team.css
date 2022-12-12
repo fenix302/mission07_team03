@@ -1,0 +1,56 @@
+* {
+	box-sizing: border-box;
+	list-style: none;
+}
+ 
+body {
+	width: 100vw;
+	height: 1000px;
+	margin: 0;
+	background-color: rgba(0, 0, 0, 1);
+	background: linear-gradient(to bottom, black, darkblue , black);
+}
+
+.team_title{
+	text-align: center;
+	width: 100vw;
+	height: 100px;
+	color: white;
+}
+
+h1{
+	width: 50vw;
+	height: 100%;
+	display: inline-block;
+}
+
+ul{
+	float: right;
+	width: 50vw;
+	height: 100%;
+}
+
+li{
+	width: 5vw;
+	text-align: center;
+	display: inline-block;
+}
+
+a{
+	line-height: 60px;
+	text-decoration: none;
+	color: white;
+}
+
+
+.fa-snowflake {
+	animation: fall 5s linear forwards;
+	color: #fff;
+	position: absolute;
+}
+ 
+@keyframes fall {
+	to {
+		transform: translateY(90vh);
+	}
+}
