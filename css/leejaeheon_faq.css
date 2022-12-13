@@ -119,9 +119,8 @@ i{
     margin: 0 auto;
 }
 
-.click:hover{
-    background-color: blue;
-    color: white;
+#hidden{
+    display: none;
 }
 
 footer{
