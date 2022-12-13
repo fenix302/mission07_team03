@@ -1,0 +1,77 @@
+/* 초기화 */
+@charset "utf=8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    word-break: keep-all;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+/* 헤더 */
+
+#header{
+    height: 100px;
+    background-color: #fff;
+}
+
+a>h1>img{
+    margin-top: 10px;
+    width: 200px;
+}
+
+
+.mybox{
+    margin: 0px 16px 0px 16px;
+    background-color: rgba(255,255,255,.8);
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.myitem{
+    margin-left: 70px;
+}
+.navbar-nav li a{
+    color: rgb(146, 146, 146) !important;
+}
+.nav-link:hover{
+    color: #960909 !important;
+}
+.nav-link:focus{
+    color: #960909  !important;
+}
+
+/* 드랍다운 메뉴 설정 변경 */
+.dropdown{
+    margin-left: 70px;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid black;
+    margin-top: 14px !important;
+}
+.dropdown-menu li{
+    padding-top: 6px;
+}
+.dropdown-menu li a {
+    text-align: center;
+}
+
+
+.navbar-toggler{
+    background-color: #fff;
+}
+.dropdown-item:hover{
+    /* 변경사항적용 */
+    background: none !important;
+    color: #ffdf00 !important;
+}
