@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JH컴퍼니 </title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/choijinho_faq.css">
+    <script src="../javascript/jquery-1.12.3.js"></script>
+    <script src="../javascript/choijinho_faq.js"></script>
+</head>
+<body>
+    <div id="top"></div>
+    <div class="mybox sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light container justify-content-between" id="navbar-example2">
+    <!-- 로고 -->
+            <a class="navbar-brand" href="choijinho_faq.html">
+                <img src="../resources/Jinho/images/logo_CJH.svg" alt="JH컴퍼니">
+                <p>JH컴퍼니</p>
+            </a>
+    <!-- 네비게이션 바 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item active myitem">
+                        <a class="nav-link" aria-current="page" href="#top">Home</a>
+                    </li>
+                    <li class="nav-item myitem">
+                        <a class="nav-link" href="#one">About</a>
+                    </li>
+                    <li class="nav-item myitem">
+                        <a class="nav-link" href="#two">Gallery</a>
+                    </li>
+                    <li class="nav-item myitem">
+                        <a class="nav-link" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Login</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Service</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#three">FAQ</a></li>
+                            <li><a class="dropdown-item" href="#">Map</a></li>
+                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div id="wrapper" class="clearfix" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+        <div>
+            <div class="ontop">
+                <h1>WELCOME</h1>
+                <h4>저희는 성공을 알고 있습니다. 복잡한 절차를 간소화 하고 최고의 퀼리티를 만들어드립니다.</h4>
+            </div>
+        </div>
+
+        <!-- about 작성 -->
+        <div class="section col col-lg-12" id="one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/camera_video_icon_CJH.svg" alt="제품촬영">
+                        <h3>제품촬영</h3><br>
+                        <p>제품촬영은 빛을 다루는 작업입니다. 9가지의 스트로브로 제품에 맞는 최적화된 빛구조를 만들어 촬영하기 어려운 제품도 극상의 퀼리티를 만들어드리고 있습니다</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/drone_CJH.svg" alt="제품촬영">
+                        <h3>영상촬영</h3><br>
+                        <p>스냅영상촬영을 위한 리그와 홍보촬영을 위한 슬라이더 돌리 및 로테이터를 보유하고 있고 무대를 촬영하는 망원렌즈 고퀼리티의 사운드를 녹음 할 수 있는 스테레오 마이크와 영상 제작 후 필요한 DVD를 바로 출력할 수 있는 전문 장비가 있습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/blog_icon_CJH.svg" alt="제품촬영">
+                        <h3>블로그</h3><br>
+                        <p>광고를 위해서는 제품에 대한 전략을 만들고 소비자에게 전달할 수 있는 스토리텔링을 만들어드립니다.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/note_icon_CJH.svg" alt="제품촬영">
+                        <h3>상세페이지</h3><br>
+                        <p>850px의 웹에서 가장 많이 사용하는 해상도로 사진촬영 기술과 판매 심리이론 등이 녹아있는 디자인을 제작하여 매출을 위한 고객과의 소통과 공감을 만들어드립니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/homepages_icon_CJH.svg" alt="제품촬영">
+                        <h3>홈페이지</h3><br>
+                        <p>홈페이지 제작을 위해서는 컨텐츠를 제공해 주셔야하므로 제작 시 많은 시간이 필요하고 연장이 되었던 것이 현실입니다. 노우컴퍼니에서는 회사 또는 제품에 대한 이해를 직접 상담을 통해 확인 후 컨텐츠까지 직접 제작해드려 시간을 최소한으로 줄여드리고 있습니다.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="../resources/Jinho/images/web_icon_CJH.svg" alt="제품촬영">
+                        <h3>웹기획</h3><br>
+                        <p>현재 운영하시는 브랜드에 대한 가치를 잘 표현 할 수 있도록 다양한 매체에 대한 구성과 운영 방향 등을 컨설팅 해드립니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 갤러리 carousel 적용 -->
+        <div class="gallery-box" id="two">
+            <h1>Gallery</h1>
+            <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../resources/Jinho/images/image1_CJH.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../resources/Jinho/images/image2_CJH.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../resources/Jinho/images/image3_CJH.JPG" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../resources/Jinho/images/image4_CJH.JPG" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- 추가 작성 필요한 곳 ex)오시는길,faq -->
+        <div>
+            <div class="ontop2" id="three">
+                <h1>ABOUT</h1>
+                <h4>저희는 성공을 알고 있습니다. 복잡한 절차를 간소화 하고 최고의 퀼리티를 만들어드립니다.</h4>
+            </div>
+        </div>
+
+        <!-- 푸터 -->
+        <footer class="card-footer mt-auto py-3">
+            <div class="container">
+                <div class="row">    
+                    <div class="col-lg-6">
+                        <p>JH컴퍼니 <br> (우)14353 경기도 광명시 일직동 514, 302호 <br>대표전화: 02-2680-1515, 010-2244-5588  <br> COPYRIGHT &copy; by JH Construction. ALL RIGHTS RESERVED</p>
+                    </div>
+        <!-- SNS 아이콘들 -->
+                    <div class="col-lg-6 icons">
+                        <div class="icon_box">
+                            <a href=""><img src="../resources/Jinho/images/twitter_CJH.svg" alt="트위터"></a>
+                            <a href=""><img src="../resources/Jinho/images/instagram_CJH.svg" alt="인스타그램"></a>
+                            <a href=""><img src="../resources/Jinho/images/facebook_CJH.svg" alt="페이스북"></a>
+                            <a href=""><img src="../resources/Jinho/images/skype_CJH.svg" alt="스카이프"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- top 버튼 -->
+        <button type="button" style="position: fixed; right: 30px; bottom: 30px; border: none; background: none;"><a href="#top" class="btn btn-outline-warning btn-sm" style="padding-top: 7px;">top</a></button>
+    </div> <!--wrapper 적용-->
+
+    <!--tubular script  -->
+    <script src="../javascript/jquery.tubular.1.0.js"></script>
+    <script>
+        $('document').ready(function() {
+	        var options = { videoId: 'e6EaKJvV6z0', mute:true };
+	        $('#wrapper').tubular(options);
+        	// f-UGhWj1xww cool sepia hd
+	        // 49SKbS7Xwf4 beautiful barn sepia
+        });
+    </script>       
+    <script src="../javascript/bootstrap.bundle.js"></script>
+
+<!-- 로그인 modal 기능 적용 부분 -->
+    <div class="modal fade" id="exampleModalToggle" aria-labelledby="exampleModalToggleLabel" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Login</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="">
+                        <div class="form-floating mb-3">
+                            <input type="id" class="form-control rounded-3" id="floatingInput" placeholder="ID">
+                            <label for="floatingInput">ID</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control rounded-3" id="floatingPassword" placeholder="Password">
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <label>
+                            <input type="checkbox" value="remember-me"> Remember me
+                        </label>
+                        <button class="w-100 mb-2 btn btn-lg rounded-3 btn-primary" type="submit">Log in</button>
+                        <h2 class="fs-5 fw-bold mb-3 mt-3">--------------------  OR  -------------------</h2>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                            <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                            Sign in with Twitter
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                            <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                            Sign in with Facebook
+                        </button>
+                        <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                            <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                            Sign in with GitHub
+                        </button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <p>Don't have an account?</p>
+                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Create an Account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 회원가입 페이지 -->
+    <form class="modal fade needs-validation was-validated" id="exampleModalToggle2" aria-labelledby="exampleModalToggleLabel2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true" style="display: none;" novalidate>
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Sign-up</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <div class="form-floating mb-3">
+                            <input type="id" class="form-control form-label" id="floatingInput" placeholder="ID" required>
+                            <label for="floatingInput" class="form-label">ID</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingInput" placeholder="Password" required>
+                            <label for="floatingInput">Confirm Password</label>
+                        </div>
+                        <div class="form-floating mb-3 input-group has-validation">
+                            <input type="text" class="form-control" id="floatingInput" required>
+                            <span class="input-group-text">@</span>
+                            <select class="form-control">
+                                <option selected="selected">naver.com</option>
+                                <option>daum.net</option>
+                                <option>gmail.com</option>
+                                <option>nate.com</option>
+                                <option>yahoo.co.kr</option>
+                            </select>
+                        </div>
+                    </div>
+                <!-- 다음 주소 api 적용 부분 -->
+                    <div>    
+                        <div class="row">
+                            <div class="form-floating mb-2 col-9">
+                                <input type="text" id="sample2_postcode" placeholder="우편번호" class="form-control" required>
+                                <label for="sample2_postcode" class="my-label">우편번호</label>
+                            </div>
+                            <div class="form-floating col-3">
+                                <input type="button" class="btn btn-success" onclick="sample2_execDaumPostcode()" value="우편번호 찾기">
+                            </div>
+                        </div>
+                        <div class="form-floating">
+                            <input type="text" id="sample2_address" placeholder="주소" class="form-control" required>
+                            <label for="sample2_address">주소</label><br>
+                        </div>
+                        <div class="form-floating mb-2">
+                            <input type="text" id="sample2_detailAddress" placeholder="상세주소" class="form-control" required>
+                            <label for="sample2_detailAddress">상세주소</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" id="sample2_extraAddress" class="form-control" placeholder="참고항목">
+                            <label for="sample2_extraAddress">참고항목</label>
+                        </div>
+                    </div>
+                    <!-- iOS에서는 position:fixed 버그가 있음, 적용하는 사이트에 맞게 position:absolute 등을 이용하여 top,left값 조정 필요 -->
+                    <div id="layer" style="display:none;position:fixed;overflow:hidden;z-index:100;-webkit-overflow-scrolling:touch;">
+                    <img src="//t1.daumcdn.net/postcode/resource/images/close.png" id="btnCloseLayer" style="cursor:pointer;position:absolute;right:-3px;top:-3px;z-index:1" onclick="closeDaumPostcode()" alt="닫기 버튼">
+                    </div>
+
+                    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+                    <script>
+                        // 우편번호 찾기 화면을 넣을 element
+                        var element_layer = document.getElementById('layer');
+
+                        function closeDaumPostcode() {
+                            // iframe을 넣은 element를 안보이게 한다.
+                            element_layer.style.display = 'none';
+                        }
+
+                        function sample2_execDaumPostcode() {
+                            new daum.Postcode({
+                                oncomplete: function(data) {
+                                    // 검색결과 항목을 클릭했을때 실행할 코드를 작성하는 부분.
+
+                                    // 각 주소의 노출 규칙에 따라 주소를 조합한다.
+                                    // 내려오는 변수가 값이 없는 경우엔 공백('')값을 가지므로, 이를 참고하여 분기 한다.
+                                    var addr = ''; // 주소 변수
+                                    var extraAddr = ''; // 참고항목 변수
+
+                                    //사용자가 선택한 주소 타입에 따라 해당 주소 값을 가져온다.
+                                    if (data.userSelectedType === 'R') { // 사용자가 도로명 주소를 선택했을 경우
+                                        addr = data.roadAddress;
+                                    } else { // 사용자가 지번 주소를 선택했을 경우(J)
+                                        addr = data.jibunAddress;
+                                    }
+
+                                    // 사용자가 선택한 주소가 도로명 타입일때 참고항목을 조합한다.
+                                    if(data.userSelectedType === 'R'){
+                                        // 법정동명이 있을 경우 추가한다. (법정리는 제외)
+                                        // 법정동의 경우 마지막 문자가 "동/로/가"로 끝난다.
+                                        if(data.bname !== '' && /[동|로|가]$/g.test(data.bname)){
+                                            extraAddr += data.bname;
+                                        }
+                                        // 건물명이 있고, 공동주택일 경우 추가한다.
+                                        if(data.buildingName !== '' && data.apartment === 'Y'){
+                                            extraAddr += (extraAddr !== '' ? ', ' + data.buildingName : data.buildingName);
+                                        }
+                                        // 표시할 참고항목이 있을 경우, 괄호까지 추가한 최종 문자열을 만든다.
+                                        if(extraAddr !== ''){
+                                            extraAddr = ' (' + extraAddr + ')';
+                                        }
+                                        // 조합된 참고항목을 해당 필드에 넣는다.
+                                        document.getElementById("sample2_extraAddress").value = extraAddr;
+                                    
+                                    } else {
+                                        document.getElementById("sample2_extraAddress").value = '';
+                                    }
+                                    // 우편번호와 주소 정보를 해당 필드에 넣는다.
+                                    document.getElementById('sample2_postcode').value = data.zonecode;
+                                    document.getElementById("sample2_address").value = addr;
+                                    // 커서를 상세주소 필드로 이동한다.
+                                    document.getElementById("sample2_detailAddress").focus();
+
+                                    // iframe을 넣은 element를 안보이게 한다.
+                                    // (autoClose:false 기능을 이용한다면, 아래 코드를 제거해야 화면에서 사라지지 않는다.)
+                                    element_layer.style.display = 'none';
+                                },
+                                width : '100%',
+                                height : '100%',
+                                maxSuggestItems : 5
+                                
+                            }).embed(element_layer);
+
+                            // iframe을 넣은 element를 보이게 한다.
+                            element_layer.style.display = 'block';
+
+                            // iframe을 넣은 element의 위치를 화면의 가운데로 이동시킨다.
+                            initLayerPosition();
+                        }
+                        // 브라우저의 크기 변경에 따라 레이어를 가운데로 이동시키고자 하실때에는
+                        // resize이벤트나, orientationchange이벤트를 이용하여 값이 변경될때마다 아래 함수를 실행 시켜 주시거나,
+                        // 직접 element_layer의 top,left값을 수정해 주시면 됩니다.
+                        function initLayerPosition(){
+                            var width = 300; //우편번호서비스가 들어갈 element의 width
+                            var height = 400; //우편번호서비스가 들어갈 element의 height
+                            var borderWidth = 5; //샘플에서 사용하는 border의 두께
+
+                            // 위에서 선언한 값들을 실제 element에 넣는다.
+                            element_layer.style.width = width + 'px';
+                            element_layer.style.height = height + 'px';
+                            element_layer.style.border = borderWidth + 'px solid';
+                            // 실행되는 순간의 화면 너비와 높이 값을 가져와서 중앙에 뜰 수 있도록 위치를 계산한다.
+                            element_layer.style.left = (((window.innerWidth || document.documentElement.clientWidth) - width)/2 - borderWidth) + 'px';
+                            element_layer.style.top = (((window.innerHeight || document.documentElement.clientHeight) - height)/2 - borderWidth) + 'px';
+                        }
+
+                    </script>
+
+                    <button class="w-100 py-2 mb-2 btn btn-outline-dark rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#twitter"/></svg>
+                        Sign up with Twitter
+                    </button>
+                    <button class="w-100 py-2 mb-2 btn btn-outline-primary rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#facebook"/></svg>
+                        Sign up with Facebook
+                    </button>
+                    <button class="w-100 py-2 mb-2 btn btn-outline-secondary rounded-3" type="submit">
+                        <svg class="bi me-1" width="16" height="16"><use xlink:href="#github"/></svg>
+                        Sign up with GitHub
+                    </button>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="checkbox" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                            You must agree before submitting.
+                        </div>
+                    </div>
+                  </div>
+                <div class="modal-footer">
+                    <p>Already have an account?</p>
+                    <a href="#exampleModalToggle" data-bs-target="#exampleModalToggle" data-bs-toggle="modal"><p5>Log in</p5></a>
+                    <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+
+
+</body>
+</html>

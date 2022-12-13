@@ -1,0 +1,190 @@
+@charset "utf=8";
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    font-family: GangwonEduPowerExtraBoldA;
+}
+
+/* 네비게이션바 */
+.navbar-brand {
+    color: #fff !important;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 55px;
+    vertical-align: top !important;
+}
+.navbar-brand p{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    height: 33px;
+}
+.mybox{
+    background-color: rgba(0,0,0,.8);
+}
+
+.navbar-collapse{
+    flex-grow: unset;
+}
+.myitem{
+    margin-left: 70px;
+}
+.navbar-nav li a{
+    font-size: 20px;
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: #ffdf00 !important;
+}
+.nav-link:focus{
+    color: #ffdf00 !important;
+}
+
+/* 드랍다운 메뉴 설정 변경 */
+.dropdown{
+    margin-left: 70px;
+}
+.dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid black;
+    margin-top: 14px !important;
+}
+.dropdown-menu li{
+    padding-top: 6px;
+}
+.dropdown-menu li a {
+    text-align: center;
+}
+
+
+.navbar-toggler{
+    background-color: #fff;
+}
+.dropdown-item:hover{
+    /* 변경사항적용 */
+    background: none !important;
+    color: #ffdf00 !important;
+}
+
+/* 튜불라 적용 */
+#wrapper{
+    z-index: 1 !important;
+}
+.ontop {
+    color:#fff;
+    font-size:2em;
+    padding: 250px 0 355px 0;
+    text-align: center;
+}
+.ontop h1{
+    font-size: 100px;
+}
+
+/* about 부분 section */
+.section{
+    margin: 100px 0;
+    padding: 50px 0;
+    background-color: #fff;
+}
+.section .row {
+    margin-bottom: 50px;
+}
+.section .row div{
+    text-align: center;
+    line-height: 30px;
+}
+.section .row div img{
+    width: 50px;
+    margin-bottom: 30px;
+}
+.row{
+    margin-top: 20px;
+}
+.row div{
+    margin-top: 40px;
+}
+
+/* carousel 적용 */
+.gallery-box{
+    background-color: #eee;
+    padding: 85px 0 1px 0;
+    margin-top: 350px;
+}
+.gallery-box h1{
+    text-align: center;
+    font-size: 40px;
+}
+.carousel{
+    margin-bottom: 200px;
+}
+.carousel-inner div{
+    padding-top: 0;
+}
+#logocontainer{
+    margin-bottom: 200px;
+}
+#tubular-shield{
+    z-index: 0 !important;
+}
+.carousel-control-prev, .carousel-control-next{
+    z-index: 0 !important;
+}
+
+.ontop2 {
+    color:#fff;
+    font-size:2em;
+    padding: 400px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* 푸터 */
+.card-footer{
+    background: #000;
+}
+footer div p{
+    color: #fff;
+}
+
+/* 푸터 아이콘들 */
+.icons{
+    vertical-align: middle;
+    text-align: center;
+}
+.icons img{
+    padding: 0;
+    margin: 20px;
+    width: 30px;
+    /* background-color: #fff; */
+}
+.icon_box{
+    background-color: rgba(206, 206, 206, 0.8);
+    border-radius: 5px;
+
+}
+
+/* 로그인 modal 기능 적용 부분 */
+.modal-body label{
+    padding-bottom: 5px;
+}
+
+/* 다음주소 api적용부분 */
+.row > div{
+    margin-top: 5px !important;
+}
+.row > div + div{
+    padding-left: 0;
+}
+.my-label{
+    padding: 8px 20px !important;
+}
+.form-floating > label{
+    padding: 8px 10px ;
+}
