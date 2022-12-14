@@ -1,0 +1,63 @@
+@charset "utf-t";
+
+/* 웹페이지 초기화 */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ga';
+    margin: 0 auto;
+}
+/* 눈누사이트 폰트 */
+@font-face {
+    font-family: 'ga';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color : black;
+}
+
+/* 헤더  */
+.navigation{
+    position: relative;
+    width: 85%;
+    height: 80px;
+    position: relative;
+}
+
+/* 로고 자리 */
+.navbar-brand{
+    padding-left: 15px;
+    margin-top: 17px;
+    font-size: 30px;
+    font-style: italic;
+}
+/* 네비게이션 위치 조정 */
+.nav-link{ 
+    position: relative;
+    margin-left: 18px;
+    margin-top: 14px;
+    font-size: 20px;
+}
+
+
+span.sign{
+    margin-left: 15px;
+}    
+
+
+/* 푸터 */
+footer{
+    height: 125px;
+    font-size: 14px;
+    background-color: black ;
+    text-align: center;
+    padding-top: 35px;
+    color: #f3f3f3;
+}
