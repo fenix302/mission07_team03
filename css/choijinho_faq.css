@@ -80,7 +80,7 @@
 .ontop {
     color:#fff;
     font-size:2em;
-    padding: 250px 0 355px 0;
+    padding: 300px 0 420px 0;
     text-align: center;
 }
 .ontop h1{
@@ -89,8 +89,8 @@
 
 /* about 부분 section */
 .section{
-    margin: 100px 0;
-    padding: 50px 0;
+    /* margin: 100px 0; */
+    padding: 150px 0;
     background-color: #fff;
 }
 .section .row {
@@ -113,13 +113,14 @@
 
 /* carousel 적용 */
 .gallery-box{
-    background-color: #eee;
+    background-color: #666666;
     padding: 85px 0 1px 0;
-    margin-top: 350px;
 }
 .gallery-box h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 50px;
 }
 .carousel{
     margin-bottom: 200px;
@@ -145,9 +146,27 @@
     background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* FAQ부분 */
+.section1 {
+    padding: 100px 0 200px 0;
+    background-color: rgb(0, 0, 0);
+}
+.faq1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
 /* 푸터 */
 .card-footer{
-    background: #000;
+    background: #666666;
 }
 footer div p{
     color: #fff;
@@ -165,7 +184,7 @@ footer div p{
     /* background-color: #fff; */
 }
 .icon_box{
-    background-color: rgba(206, 206, 206, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     border-radius: 5px;
 
 }
