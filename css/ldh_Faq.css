@@ -51,6 +51,24 @@ span.sign{
     margin-left: 15px;
 }    
 
+.faqimg > img{
+    height: 400px;
+}
+.faqtext{
+    margin-top: 50px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.faqtext > p{
+    font-size: 60px;
+}
+
+#mainfaq{
+    margin-top: 50px;
+    margin-bottom: 75px;
+    width: 75vw;
+}
 
 /* 푸터 */
 footer{
