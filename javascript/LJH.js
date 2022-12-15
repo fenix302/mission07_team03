@@ -1,7 +1,6 @@
 // 클릭햇을때 숨겨진 컨텐츠가 나오게 만드는 자바스크립트
-const t = document.querySelectorAll('.click');
-t.forEach((box) => {
-    box.addEventListener('click', function(){
+const t = document.querySelector('.click');
+t.addEventListener('click', function(){
         //id = "hidden"인 요소을 찾아 변수 c에 대입
         let c = document.getElementById("hidden")
         let v = c.style.display
@@ -11,5 +10,5 @@ t.forEach((box) => {
         } else{
             c.style.display = "none"
         }
-    })
-});
+    });
+
