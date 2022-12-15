@@ -10,6 +10,8 @@
     <script src="../javascript/bootstrap.bundle.min.js"></script>
     <script src="../javascript/jquery-1.12.3.js"></script>
     <script src="https://kit.fontawesome.com/76c37157d1.js" crossorigin="anonymous"></script>
+    <script src="../javascript/jquery.tubular.1.0.js"></script>
+    <script src="../javascript/LJH.js" defer></script>
 </head>
 <body>
     <header>
@@ -55,52 +57,103 @@
         </div>
     </header>
     <div id="bodywrap">
+      <div class="container-lg faq">
+        <p><img src="../resources/Jaeheon/images/music.svg" alt="제이뮤직">제이뮤직 고객센터</p>
+      </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-              Accordion Item #1
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+              Q1. 해외에 살지 않아도 지원 가능한가요?
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body bg_gray">
+              <strong>A. 가능합니다.</strong> 제이뮤직은 시간과 장소에 제약 없이 누구나 지원 하실수 있습니다. 해외 뿐 아니라 국내 거주하는 분들도 모두 지원 가능합니다.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Accordion Item #2
+              Q2. 지원하기 위해서는 회원 가입이 필요한가요?
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body bg_gray">
+              <strong>A. 별도의 회원가입이 필요하지 않습니다.</strong> 가입절차 없이 '지원하기' 버튼을 누르고 양식에 맞춰 제출하시면 됩니다.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Accordion Item #3
+              Q3. 한가지 분야만 지원할 수 있나요?
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body bg_gray">
+              <strong>A. 아닙니다.</strong>제이뮤직 오디션에 지원하실때 동영상 및 음원 등의 첨부 파일을 업로드 하실 수 있습니다. 노래, 랩, 춤, 연기 등 자신있는 모습을 담아 지원해주세요.
             </div>
           </div>
         </div>
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Accordion Item #1
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Q4. 제가 올린 영상을 다른 사람도 볼수 있나요?
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion-body bg_gray">
+              <strong>A. 지원 영상은 관계자만 볼 수 있습니다.</strong> 제이뮤직에 지원하신 내용은 지원자와 제이뮤직 본부 오디션 인사담당자만 확인할 수 있습니다.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Q5. 친구랑 함께 팀으로 지원해도 되나요?
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg_gray">
+              <strong>A. 팀으로 지원 가능합니다.</strong> 오디션 페이지에서 팀원 모두 지원서를 등록해주시면 됩니다. 영상 촬영이나 녹음본이 있다면 대표자 한분이 업로드 해주시면 됩니다.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+              Q6. 온라인 오디션에 합격하면 바로 연습생이 되나요?
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg_gray">
+              <strong>A. 온라인 오디션에 합격하신 분들은 따로 개별 오디션을 추가적으로 보시게 됩니다.</strong> 최종적으로 합격하신 분들에 한해서 제이뮤직의 교육 프로그램에 참여할 수 있는 기회가 주어집니다.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSeven">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+              Q7. 합격하면 어떻게 연락이 오나요?
+            </button>
+          </h2>
+          <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg_gray">
+              <strong>A. 심사 완료 후 3주 안에 합격자에 한해서만 연락 드립니다.</strong> 지원서에 등록하신 휴대전화로 먼저 연락 드리며, 반드시 본인과의 전화 통화를 통해서 결과를 알려드립니다.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingEight">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+              Q8. 탈락했습니다. 또 지원 가능한가요?
+            </button>
+          </h2>
+          <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+            <div class="accordion-body bg_gray">
+              <strong>A. 제이뮤직의 문은 언제나 열려 있습니다.</strong> 탈락하셨더라도 언제든지 다시 지원 가능합니다.
             </div>
           </div>
         </div>

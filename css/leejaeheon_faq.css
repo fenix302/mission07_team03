@@ -99,7 +99,7 @@ i{
     position: relative;
     margin-top: 40px;
     width: 80vw;
-    height: auto;
+    height: 670px;
     
 }
 
@@ -163,4 +163,16 @@ footer{
     height: 50px;
 }
 
+.bg_gray{
+    background-color: rgba(0, 0, 0, 0.2);
+}
 
+.faq{
+    width: 400px;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
