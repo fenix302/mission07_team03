@@ -51,6 +51,7 @@ span.sign{
     margin-left: 15px;
 }    
 
+/* 이미지 높이 설정 */
 .faqimg > img{
     height: 400px;
 }
@@ -64,10 +65,16 @@ span.sign{
     font-size: 60px;
 }
 
+/* faq 크기 설정 */
 #mainfaq{
     margin-top: 50px;
     margin-bottom: 75px;
     width: 75vw;
+}
+
+/* 질문에 마우스 올릴 시 색 변화 */
+.accordion-button:hover{
+    background-color: #a9e1ee;
 }
 
 /* 푸터 */
